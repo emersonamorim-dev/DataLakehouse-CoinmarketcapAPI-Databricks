@@ -1,6 +1,6 @@
-# Data Lakehouse Coinmarketcap - Databricks
+# Data Lakehouse Coinmarketcap - Databricks  🚀 🔄 🌐
 
-Codificação em Python com Framework Streamlit e Flask este aplicação completa de Data Lakehouse usando a API da Coinmarketcap usando o  Databricks extrair os dados. Essa aplicação foi projetado para processar e visualizar dados em uma arquitetura Data Lakehouse multicamadas usando Streamlit para Dashboard, MongoDB como banco de dados e um pipeline estruturado para processos ETL (Extrair, Transformar, Carregar).
+Codificação em Python com Framework Streamlit e Flask este aplicação completa de Data Lakehouse usando a API da Coinmarketcap usando o  Databricks extrair os dados. Essa aplicação foi projetado para processar e visualizar dados em uma arquitetura Data Lakehouse multicamadas usando Streamlit para Dashboard, MongoDB como banco de dados e Powerbi para visualização de Dashboard localmente e um pipeline estruturado para processos ETL (Extrair, Transformar, Carregar).
 
 ## Estrutura de diretório
 
@@ -60,10 +60,10 @@ Em aggregate do arquivo gold.py
 - Rode os seguintes comandos:
 
 ```
-python -m venv venv
+python -m env env
 ```
 ```
-source venv/bin/activate
+source env/bin/activate
 ```
 
 3. Instale os pacotes Python necessários:
