@@ -1,6 +1,6 @@
 # DataLakehouse Coinmarketcap API - Databricks  🚀 🔄 🌐
 
-Codificação em Python com Framework Streamlit e Flask para desenvolvimento dessa aplicação completa de Data Lakehouse usando a API da Coinmarketcap usando o  Databricks extrair os dados. Essa aplicação foi projetada para processar e visualizar dados em uma arquitetura Data Lakehouse multicamadas usando Streamlit para Dashboard, MongoDB como banco de dados e Powerbi para visualização de Dashboard localmente e um pipeline estruturado para processos ETL (Extrair, Transformar, Carregar).
+Codificação em Python com Framework Streamlit e Flask para desenvolvimento dessa aplicação completa de Data Lakehouse usando a API da Coinmarketcap juntamente com  Databricks extrair os dados. Essa aplicação foi projetada para processar e visualizar dados em uma arquitetura Data Lakehouse multicamadas usando Streamlit para Dashboard, MongoDB como banco de dados e Powerbi para visualização de Dashboard localmente e um pipeline estruturado para processos ETL (Extrair, Transformar, Carregar).
 
 ## Estrutura de diretório
 
