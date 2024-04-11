@@ -1,0 +1,21 @@
+# Web Framework para criar o Dashboard
+dash==2.0.0
+dash-bootstrap-components==1.0.0
+dash-core-components==2.0.0
+dash-html-components==2.0.0
+plotly==5.3.1
+
+apache-airflow==2.1.2
+numpy==1.22.4
+pandas==1.3.3
+requests==2.27.0
+scipy==1.12.0
+pymongo==3.12.0
+jupyter==1.0.0
+pyspark==3.2.0
+
+
+# Databricks API client para Python
+# databricks-api==0.14.3
+
+

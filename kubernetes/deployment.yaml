@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: projetos-datalake-coinmarketcap-deployment
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: projetos-datalake-coinmarketcap
+  template:
+    metadata:
+      labels:
+        app: projetos-datalake-coinmarketcap
+    spec:
+      containers:
+      - name: projetos-datalake-coinmarketcap
+        image: projetos-datalake-coinmarketcap:latest
+        ports:
+        - containerPort: 80

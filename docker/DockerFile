@@ -1,0 +1,19 @@
+FROM python:3.8-slim
+
+# Defina o diretório de trabalho no contêiner
+WORKDIR /app
+
+# Copie os requisitos do projeto para o contêiner
+COPY requirements.txt .
+
+# Instale as dependências do projeto
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copie os scripts e códigos da aplicação para o contêiner
+COPY . .
+
+# Exponha a porta que o Airflow Web Server usa
+EXPOSE 8080
+
+# Comando para iniciar o Airflow Web Server
+CMD ["airflow", "webserver", "-p", "8081"]
