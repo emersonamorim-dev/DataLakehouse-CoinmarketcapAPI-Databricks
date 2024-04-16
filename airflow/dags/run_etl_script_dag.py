@@ -25,7 +25,7 @@ dag = DAG(
 
 run_etl_script = BashOperator(
     task_id='run_etl_script',
-    bash_command='python /home/your-user/seu-diretorio/airflow/scripts/etl_script.py.py /home/emerdev/projetos-datalake-coinmarketcap/datalake/goldinput.json /path/to/output.json',
+    bash_command='python /home/your-user/seu-diretorio/airflow/scripts/etl_script.py.py /home/your-user/projetos-datalake-coinmarketcap/datalake/goldinput.json /path/to/output.json',
     dag=dag,
 )
 
