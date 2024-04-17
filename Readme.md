@@ -247,6 +247,18 @@ Explore os componentes do Dash e do Plotly para adicionar funcionalidades como d
 - Para implantação no Kubernetes, consulte as configurações no diretório `kubernetes/`.
 - Use os arquivos do diretório `docker/` para construir e executar contêineres para configuração de ambiente isolado.
 
+### Benefícios de usar a API Coinmarketcap com o Data Lake House do Databricks:
+
+Acesso a dados de mercado criptomoedas: a API Coinmarketcap fornece dados detalhados sobre preços, mercado e coins.
+Escalabilidade e gerenciamento de dados: o Data Lake House do Databricks oferece escalabilidade e gerenciamento de dados a grande escala.
+Aprendizado de máquina e análise: os dados podem ser usados para o aprendizado de máquina e a análise de padrões.
+
+### Considerações adicionais:
+
+O Data Lake House do Databricks é ideal para armazenar grandes quantidades de dados estratificados.
+O uso de um serviço de gerenciamento de dados, como o Data Factory ou o Airflow, pode ajudar na coleta e processamento dos dados.
+É importante ter um plano de negócios claro para determinar os objetivos e as necessidades de dados específicos.
+
 
 ### Conclusão
 Este sistema completo de Data Lakehouse da CoinMarketCap o projeto foi uma iniciativa ambiciosa que visou capitalizar a riqueza de dados do mercado de criptomoedas para fornecer insights aprofundados e aprimorar a tomada de decisão no ambiente financeiro dinâmico de hoje. Utilizando a robusta plataforma do Databricks, conseguimos consolidar, processar e analisar grandes volumes de dados relacionados a preços de ativos, volumes de transação, e mudanças de mercado em tempo real.
